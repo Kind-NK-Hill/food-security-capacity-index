@@ -1,0 +1,4 @@
+model,evaluation,rows,countries,mae,rmse,r2,spearman
+constant_0.50_baseline,five-fold country-grouped out-of-fold,360,30,0.229885057471264,0.277333837349766,0,
+ols,five-fold country-grouped out-of-fold,360,30,0.225319514520257,0.307670114792112,-0.230736003417319,0.614091278912428
+shallow_random_forest,five-fold country-grouped out-of-fold,360,30,0.191584267877049,0.228837318363901,0.319155430260619,0.561696076862625

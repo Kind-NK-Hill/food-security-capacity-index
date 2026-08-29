@@ -1,0 +1,20 @@
+{
+  "artifact": "public release explanatory data gate",
+  "data_gate": {
+    "modeling_allowed": true,
+    "passed_features": [
+      "electricity_access_pct",
+      "rural_population_pct",
+      "rural_population_growth_pct",
+      "female_agricultural_employment_pct",
+      "arable_land_hectares_per_person",
+      "fertilizer_consumption_kg_per_hectare_arable_land"
+    ]
+  },
+  "scope": {
+    "countries": 30,
+    "years": "2010-2021",
+    "rows": 360,
+    "point_imputation": false
+  }
+}

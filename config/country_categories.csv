@@ -1,0 +1,31 @@
+iso3,country,legacy_category
+ARG,Argentina,category_1
+BGD,Bangladesh,category_3
+BRA,Brazil,category_1
+CHN,China,category_2
+COD,"Congo, Dem. Rep.",category_3
+COL,Colombia,unclassified
+DEU,Germany,category_2
+EGY,"Egypt, Arab Rep.",category_3
+ETH,Ethiopia,category_3
+FRA,France,flexible_1
+GBR,United Kingdom,category_2
+IDN,Indonesia,unclassified
+IND,India,category_3
+IRN,"Iran, Islamic Rep.",flexible_2
+ITA,Italy,category_2
+KEN,Kenya,unclassified
+KOR,"Korea, Rep.",category_2
+MEX,Mexico,flexible_2
+MMR,Myanmar,flexible_2
+MYS,Malaysia,unclassified
+NGA,Nigeria,category_3
+PAK,Pakistan,category_3
+PHL,Philippines,unclassified
+RUS,Russian Federation,flexible_1
+THA,Thailand,flexible_2
+TUR,Turkiye,flexible_2
+TZA,Tanzania,flexible_2
+USA,United States,category_1
+VNM,Viet Nam,flexible_2
+ZAF,South Africa,flexible_2

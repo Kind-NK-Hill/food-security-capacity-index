@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local data refreshes and generated runs
+data/raw/
+data/processed/world_bank/
+data/processed/official_outcomes/
+data/processed/explanatory_refresh/
+results/generated/
+figures/generated/
+
+# Report build intermediates and rendered QA pages
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+report/rendered_pages/
+tmp/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key

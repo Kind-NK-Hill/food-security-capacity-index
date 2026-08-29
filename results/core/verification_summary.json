@@ -1,0 +1,130 @@
+{
+  "artifact": "public-safe digest of the independent private-workspace verification",
+  "verification_status": "pass",
+  "checks_passed": 44,
+  "checks_total": 44,
+  "failed_checks": [],
+  "note": "Path-specific checks, original-course hashes, and local filesystem records are intentionally omitted from the public release.",
+  "result_digest": {
+    "legacy_valid_weights": 1380,
+    "legacy_minimum_tv_ties": 3,
+    "cluster_selected_k": 4,
+    "cluster_sizes": {
+      "1": 2,
+      "2": 21,
+      "3": 6,
+      "4": 1
+    },
+    "cluster_bootstrap_ari_quantiles": {
+      "0.05": 0.67059318468658,
+      "0.25": 0.768345936734476,
+      "0.5": 0.899022938780678,
+      "0.75": 1.0,
+      "0.95": 1.0
+    },
+    "model_metrics": [
+      {
+        "model": "constant_0.50_baseline",
+        "evaluation": "five-fold country-grouped out-of-fold",
+        "rows": 360,
+        "countries": 30,
+        "mae": 0.229885057471264,
+        "rmse": 0.277333837349766,
+        "r2": 0.0,
+        "spearman": null
+      },
+      {
+        "model": "ols",
+        "evaluation": "five-fold country-grouped out-of-fold",
+        "rows": 360,
+        "countries": 30,
+        "mae": 0.225319514520257,
+        "rmse": 0.307670114792112,
+        "r2": -0.230736003417319,
+        "spearman": 0.614091278912428
+      },
+      {
+        "model": "shallow_random_forest",
+        "evaluation": "five-fold country-grouped out-of-fold",
+        "rows": 360,
+        "countries": 30,
+        "mae": 0.191584267877049,
+        "rmse": 0.228837318363901,
+        "r2": 0.319155430260619,
+        "spearman": 0.561696076862625
+      }
+    ],
+    "positive_r2_fold_counts_out_of_5": {
+      "constant_0.50_baseline": 0,
+      "ols": 3,
+      "shallow_random_forest": 2
+    },
+    "positive_permutation_importance_fold_counts_out_of_5": {
+      "arable_land_hectares_per_person": 5,
+      "electricity_access_pct": 3,
+      "female_agricultural_employment_pct": 4,
+      "fertilizer_consumption_kg_per_hectare_arable_land": 3,
+      "rural_population_growth_pct": 3,
+      "rural_population_pct": 2
+    },
+    "stable_by_prespecified_rank_direction_rule": [
+      "arable_land_hectares_per_person",
+      "fertilizer_consumption_kg_per_hectare_arable_land",
+      "rural_population_growth_pct",
+      "rural_population_pct"
+    ],
+    "main_external_alignment": [
+      {
+        "outcome_view": "pou_lower_bound",
+        "report_role": "main",
+        "country_count": 30,
+        "overlapping_country_period_rows": 420,
+        "candidate_capacity_rows": 420,
+        "excluded_missing_or_invalid_status_rows": 0,
+        "left_censored_rows": 137,
+        "median_period_rows_per_country": 14,
+        "minimum_period_rows_per_country": 14,
+        "maximum_period_rows_per_country": 14,
+        "country_median_spearman": -0.311363844899067,
+        "expected_direction": "negative",
+        "direction_consistent": true,
+        "semantics": "official PoU three-year-average lower-bound view; '<2.5' contributes 0 only as a bound",
+        "inference": "descriptive construct alignment only; no p-value, prediction, or causal claim"
+      },
+      {
+        "outcome_view": "pou_upper_bound",
+        "report_role": "main",
+        "country_count": 30,
+        "overlapping_country_period_rows": 420,
+        "candidate_capacity_rows": 420,
+        "excluded_missing_or_invalid_status_rows": 0,
+        "left_censored_rows": 137,
+        "median_period_rows_per_country": 14,
+        "minimum_period_rows_per_country": 14,
+        "maximum_period_rows_per_country": 14,
+        "country_median_spearman": -0.311363844899067,
+        "expected_direction": "negative",
+        "direction_consistent": true,
+        "semantics": "official PoU three-year-average upper-bound view; '<2.5' contributes 2.5 only as a bound",
+        "inference": "descriptive construct alignment only; no p-value, prediction, or causal claim"
+      },
+      {
+        "outcome_view": "fies_exact",
+        "report_role": "main",
+        "country_count": 27,
+        "overlapping_country_period_rows": 218,
+        "candidate_capacity_rows": 420,
+        "excluded_missing_or_invalid_status_rows": 202,
+        "left_censored_rows": 0,
+        "median_period_rows_per_country": 9,
+        "minimum_period_rows_per_country": 3,
+        "maximum_period_rows_per_country": 9,
+        "country_median_spearman": -0.266870241448412,
+        "expected_direction": "negative",
+        "direction_consistent": true,
+        "semantics": "published exact moderate-or-severe FIES three-year averages only",
+        "inference": "descriptive construct alignment only; no p-value, prediction, or causal claim"
+      }
+    ]
+  }
+}

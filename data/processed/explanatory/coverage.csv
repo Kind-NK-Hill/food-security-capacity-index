@@ -1,0 +1,187 @@
+indicator_code,feature_name,iso3,country,included_in_30_country_model_scope,expected_years,observed_years,missing_year_count,missing_years,coverage_fraction,minimum_required_observed_years,country_gate_pass
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,ARG,Argentina,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,BGD,Bangladesh,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,BRA,Brazil,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,CHN,China,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,COD,"Congo, Dem. Rep.",True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,COL,Colombia,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,DEU,Germany,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,EGY,"Egypt, Arab Rep.",True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,ETH,Ethiopia,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,FRA,France,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,GBR,United Kingdom,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,IDN,Indonesia,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,IND,India,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,IRN,"Iran, Islamic Rep.",True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,ITA,Italy,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,JPN,Japan,False,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,KEN,Kenya,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,KOR,"Korea, Rep.",True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,MEX,Mexico,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,MMR,Myanmar,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,MYS,Malaysia,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,NGA,Nigeria,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,PAK,Pakistan,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,PHL,Philippines,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,RUS,Russian Federation,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,THA,Thailand,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,TUR,Turkiye,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,TZA,Tanzania,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,USA,United States,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,VNM,Viet Nam,True,12,12,0,,1,8,True
+AG.CON.FERT.ZS,fertilizer_consumption_kg_per_hectare_arable_land,ZAF,South Africa,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,ARG,Argentina,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,BGD,Bangladesh,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,BRA,Brazil,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,CHN,China,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,COD,"Congo, Dem. Rep.",True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,COL,Colombia,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,DEU,Germany,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,EGY,"Egypt, Arab Rep.",True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,ETH,Ethiopia,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,FRA,France,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,GBR,United Kingdom,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,IDN,Indonesia,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,IND,India,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,IRN,"Iran, Islamic Rep.",True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,ITA,Italy,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,JPN,Japan,False,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,KEN,Kenya,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,KOR,"Korea, Rep.",True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,MEX,Mexico,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,MMR,Myanmar,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,MYS,Malaysia,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,NGA,Nigeria,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,PAK,Pakistan,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,PHL,Philippines,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,RUS,Russian Federation,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,THA,Thailand,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,TUR,Turkiye,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,TZA,Tanzania,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,USA,United States,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,VNM,Viet Nam,True,12,12,0,,1,8,True
+AG.LND.ARBL.HA.PC,arable_land_hectares_per_person,ZAF,South Africa,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,ARG,Argentina,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,BGD,Bangladesh,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,BRA,Brazil,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,CHN,China,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,COD,"Congo, Dem. Rep.",True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,COL,Colombia,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,DEU,Germany,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,EGY,"Egypt, Arab Rep.",True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,ETH,Ethiopia,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,FRA,France,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,GBR,United Kingdom,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,IDN,Indonesia,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,IND,India,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,IRN,"Iran, Islamic Rep.",True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,ITA,Italy,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,JPN,Japan,False,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,KEN,Kenya,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,KOR,"Korea, Rep.",True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,MEX,Mexico,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,MMR,Myanmar,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,MYS,Malaysia,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,NGA,Nigeria,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,PAK,Pakistan,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,PHL,Philippines,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,RUS,Russian Federation,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,THA,Thailand,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,TUR,Turkiye,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,TZA,Tanzania,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,USA,United States,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,VNM,Viet Nam,True,12,12,0,,1,8,True
+EG.ELC.ACCS.ZS,electricity_access_pct,ZAF,South Africa,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,ARG,Argentina,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,BGD,Bangladesh,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,BRA,Brazil,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,CHN,China,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,COD,"Congo, Dem. Rep.",True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,COL,Colombia,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,DEU,Germany,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,EGY,"Egypt, Arab Rep.",True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,ETH,Ethiopia,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,FRA,France,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,GBR,United Kingdom,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,IDN,Indonesia,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,IND,India,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,IRN,"Iran, Islamic Rep.",True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,ITA,Italy,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,JPN,Japan,False,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,KEN,Kenya,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,KOR,"Korea, Rep.",True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,MEX,Mexico,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,MMR,Myanmar,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,MYS,Malaysia,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,NGA,Nigeria,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,PAK,Pakistan,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,PHL,Philippines,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,RUS,Russian Federation,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,THA,Thailand,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,TUR,Turkiye,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,TZA,Tanzania,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,USA,United States,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,VNM,Viet Nam,True,12,12,0,,1,8,True
+SL.AGR.EMPL.FE.ZS,female_agricultural_employment_pct,ZAF,South Africa,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,ARG,Argentina,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,BGD,Bangladesh,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,BRA,Brazil,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,CHN,China,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,COD,"Congo, Dem. Rep.",True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,COL,Colombia,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,DEU,Germany,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,EGY,"Egypt, Arab Rep.",True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,ETH,Ethiopia,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,FRA,France,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,GBR,United Kingdom,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,IDN,Indonesia,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,IND,India,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,IRN,"Iran, Islamic Rep.",True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,ITA,Italy,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,JPN,Japan,False,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,KEN,Kenya,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,KOR,"Korea, Rep.",True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,MEX,Mexico,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,MMR,Myanmar,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,MYS,Malaysia,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,NGA,Nigeria,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,PAK,Pakistan,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,PHL,Philippines,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,RUS,Russian Federation,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,THA,Thailand,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,TUR,Turkiye,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,TZA,Tanzania,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,USA,United States,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,VNM,Viet Nam,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZG,rural_population_growth_pct,ZAF,South Africa,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,ARG,Argentina,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,BGD,Bangladesh,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,BRA,Brazil,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,CHN,China,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,COD,"Congo, Dem. Rep.",True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,COL,Colombia,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,DEU,Germany,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,EGY,"Egypt, Arab Rep.",True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,ETH,Ethiopia,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,FRA,France,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,GBR,United Kingdom,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,IDN,Indonesia,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,IND,India,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,IRN,"Iran, Islamic Rep.",True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,ITA,Italy,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,JPN,Japan,False,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,KEN,Kenya,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,KOR,"Korea, Rep.",True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,MEX,Mexico,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,MMR,Myanmar,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,MYS,Malaysia,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,NGA,Nigeria,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,PAK,Pakistan,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,PHL,Philippines,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,RUS,Russian Federation,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,THA,Thailand,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,TUR,Turkiye,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,TZA,Tanzania,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,USA,United States,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,VNM,Viet Nam,True,12,12,0,,1,8,True
+SP.RUR.TOTL.ZS,rural_population_pct,ZAF,South Africa,True,12,12,0,,1,8,True

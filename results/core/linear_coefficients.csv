@@ -1,0 +1,8 @@
+term,coefficient,country_clustered_standard_error,ci_95_lower,ci_95_upper,p_value_descriptive_only,is_missingness_indicator,interpretation_unit
+intercept,0.5,0.0322487809247625,0.436793550842143,0.563206449157857,3.23615711561335e-54,False,target intercept
+electricity_access_pct,0.11885692316792,0.0233939257957967,0.0730056711511559,0.164708175184684,3.76096995187613e-07,False,Capacity v2 units per one full-panel predictor standard deviation
+rural_population_pct,0.154265305423168,0.060883817327609,0.0349352162197381,0.273595394626597,0.0112844274490028,False,Capacity v2 units per one full-panel predictor standard deviation
+rural_population_growth_pct,-0.0374988119261415,0.0307252981660865,-0.0977192897459256,0.0227216658936427,0.222292831201694,False,Capacity v2 units per one full-panel predictor standard deviation
+female_agricultural_employment_pct,-0.0584128030058843,0.0459999289139083,-0.148571006968547,0.0317454009567787,0.204139667511281,False,Capacity v2 units per one full-panel predictor standard deviation
+arable_land_hectares_per_person,0.17902796504184,0.0368008670339148,0.106899591055519,0.25115633902816,1.14586658270391e-06,False,Capacity v2 units per one full-panel predictor standard deviation
+fertilizer_consumption_kg_per_hectare_arable_land,-0.0608172778364843,0.0180002289181794,-0.0960970782295922,-0.0255374774433764,0.000728308429021133,False,Capacity v2 units per one full-panel predictor standard deviation

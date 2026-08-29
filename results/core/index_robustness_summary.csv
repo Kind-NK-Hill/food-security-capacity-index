@@ -1,0 +1,6 @@
+diagnostic,value,interpretation
+country-median rank: 50/50 versus 56/44,0.998108805820263,Spearman rank agreement
+country-median rank: percentile-rank versus annual min-max,0.989209039384059,Spearman rank agreement
+minimum rank agreement over central SSR weights 0.40-0.60,0.985204144487768,minimum Spearman versus 50/50
+minimum rank agreement over all 101 SSR weights,0.910962766415336,minimum Spearman versus 50/50
+weight combinations satisfying all four category hypotheses,0,count out of 101; weights are not selected to repair failure

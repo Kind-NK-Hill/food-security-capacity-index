@@ -1,0 +1,437 @@
+{
+  "artifact": "public-safe frozen result summary for the cereal-capacity case study",
+  "scope": {
+    "countries": 30,
+    "model_years": "2010-2021",
+    "model_rows": 360,
+    "index_years": "2010-2023",
+    "index_rows": 420,
+    "features_retained_after_data_gate": [
+      "electricity_access_pct",
+      "rural_population_pct",
+      "rural_population_growth_pct",
+      "female_agricultural_employment_pct",
+      "arable_land_hectares_per_person",
+      "fertilizer_consumption_kg_per_hectare_arable_land"
+    ]
+  },
+  "country_structure": {
+    "selected_k_by_maximum_silhouette": 4,
+    "silhouette_scores": [
+      {
+        "k": 2,
+        "silhouette_score": 0.4472954057483613
+      },
+      {
+        "k": 3,
+        "silhouette_score": 0.4726440718634869
+      },
+      {
+        "k": 4,
+        "silhouette_score": 0.5136634032552764
+      },
+      {
+        "k": 5,
+        "silhouette_score": 0.33509574358417477
+      },
+      {
+        "k": 6,
+        "silhouette_score": 0.35472202090882854
+      }
+    ],
+    "bootstrap_replicates": 500,
+    "median_bootstrap_adjusted_rand": 0.8990229387806783,
+    "main_text_stability_gate_threshold": 0.6,
+    "main_text_stability_gate_pass": true,
+    "figure_role": "main"
+  },
+  "model_validation": [
+    {
+      "model": "constant_0.50_baseline",
+      "evaluation": "five-fold country-grouped out-of-fold",
+      "rows": 360,
+      "countries": 30,
+      "mae": 0.22988505747126436,
+      "rmse": 0.27733383734976613,
+      "r2": 0.0,
+      "spearman": null
+    },
+    {
+      "model": "ols",
+      "evaluation": "five-fold country-grouped out-of-fold",
+      "rows": 360,
+      "countries": 30,
+      "mae": 0.22531951452025664,
+      "rmse": 0.3076701147921125,
+      "r2": -0.2307360034173187,
+      "spearman": 0.6140912789124277
+    },
+    {
+      "model": "shallow_random_forest",
+      "evaluation": "five-fold country-grouped out-of-fold",
+      "rows": 360,
+      "countries": 30,
+      "mae": 0.19158426787704874,
+      "rmse": 0.22883731836390078,
+      "r2": 0.3191554302606191,
+      "spearman": 0.5616960768626247
+    }
+  ],
+  "linear_attribution": {
+    "standardization": "full-panel coefficients per predictor SD",
+    "uncertainty": "country-clustered standard errors and 95% intervals",
+    "fold_sign_stability": [
+      {
+        "feature": "electricity_access_pct",
+        "folds": 5,
+        "positive_folds": 5,
+        "negative_folds": 0,
+        "zero_folds": 0,
+        "majority_sign": "positive",
+        "majority_sign_share": 1.0,
+        "mean_fold_coefficient": 0.1174679715947079,
+        "minimum_fold_coefficient": 0.06147762608637167,
+        "maximum_fold_coefficient": 0.1610241586899789
+      },
+      {
+        "feature": "rural_population_pct",
+        "folds": 5,
+        "positive_folds": 5,
+        "negative_folds": 0,
+        "zero_folds": 0,
+        "majority_sign": "positive",
+        "majority_sign_share": 1.0,
+        "mean_fold_coefficient": 0.15245900048437747,
+        "minimum_fold_coefficient": 0.11160400930540805,
+        "maximum_fold_coefficient": 0.22453309203762645
+      },
+      {
+        "feature": "rural_population_growth_pct",
+        "folds": 5,
+        "positive_folds": 0,
+        "negative_folds": 5,
+        "zero_folds": 0,
+        "majority_sign": "negative",
+        "majority_sign_share": 1.0,
+        "mean_fold_coefficient": -0.042011315896496516,
+        "minimum_fold_coefficient": -0.0830221083757317,
+        "maximum_fold_coefficient": -0.01161086539345041
+      },
+      {
+        "feature": "female_agricultural_employment_pct",
+        "folds": 5,
+        "positive_folds": 0,
+        "negative_folds": 5,
+        "zero_folds": 0,
+        "majority_sign": "negative",
+        "majority_sign_share": 1.0,
+        "mean_fold_coefficient": -0.051502619343952706,
+        "minimum_fold_coefficient": -0.0951923456172404,
+        "maximum_fold_coefficient": -0.012852391440099545
+      },
+      {
+        "feature": "arable_land_hectares_per_person",
+        "folds": 5,
+        "positive_folds": 5,
+        "negative_folds": 0,
+        "zero_folds": 0,
+        "majority_sign": "positive",
+        "majority_sign_share": 1.0,
+        "mean_fold_coefficient": 0.18587052509033,
+        "minimum_fold_coefficient": 0.17382065805279695,
+        "maximum_fold_coefficient": 0.19613408905940322
+      },
+      {
+        "feature": "fertilizer_consumption_kg_per_hectare_arable_land",
+        "folds": 5,
+        "positive_folds": 0,
+        "negative_folds": 5,
+        "zero_folds": 0,
+        "majority_sign": "negative",
+        "majority_sign_share": 1.0,
+        "mean_fold_coefficient": -0.051990942362223055,
+        "minimum_fold_coefficient": -0.0696312713091774,
+        "maximum_fold_coefficient": -0.014732990658004541
+      }
+    ]
+  },
+  "random_forest_attribution": {
+    "configuration": {
+      "n_estimators": 500,
+      "max_depth": 5,
+      "min_samples_leaf": 5,
+      "max_features": 0.7,
+      "random_state": 42
+    },
+    "stable_features_for_main_text": [
+      "arable_land_hectares_per_person",
+      "fertilizer_consumption_kg_per_hectare_arable_land",
+      "rural_population_growth_pct",
+      "rural_population_pct"
+    ],
+    "feature_stability": [
+      {
+        "feature": "arable_land_hectares_per_person",
+        "folds": 5,
+        "mean_heldout_grouped_permutation_importance_mae_increase": 0.06982039235580897,
+        "sd_across_fold_importance_means": 0.05824925239883339,
+        "median_importance_rank": 1.0,
+        "top_five_fold_count": 5,
+        "positive_direction_folds": 5,
+        "negative_direction_folds": 0,
+        "neutral_or_weak_direction_folds": 0,
+        "median_heldout_feature_shap_spearman": 0.8549975480817481,
+        "missingness_indicator_present": false,
+        "mean_indicator_share_of_all_absolute_shap": 0.0,
+        "maximum_indicator_share_of_all_absolute_shap": 0.0,
+        "direction_contradictory_across_folds": false,
+        "stable_for_main_text": true,
+        "stability_rule": "exactly six prespecified features; top five in >=4/5 folds; no positive/negative observed-value SHAP direction contradiction at |rho|>=0.10"
+      },
+      {
+        "feature": "female_agricultural_employment_pct",
+        "folds": 5,
+        "mean_heldout_grouped_permutation_importance_mae_increase": 0.006868187189150912,
+        "sd_across_fold_importance_means": 0.008385132692870594,
+        "median_importance_rank": 3.0,
+        "top_five_fold_count": 5,
+        "positive_direction_folds": 1,
+        "negative_direction_folds": 3,
+        "neutral_or_weak_direction_folds": 1,
+        "median_heldout_feature_shap_spearman": -0.26818444916071776,
+        "missingness_indicator_present": false,
+        "mean_indicator_share_of_all_absolute_shap": 0.0,
+        "maximum_indicator_share_of_all_absolute_shap": 0.0,
+        "direction_contradictory_across_folds": true,
+        "stable_for_main_text": false,
+        "stability_rule": "exactly six prespecified features; top five in >=4/5 folds; no positive/negative observed-value SHAP direction contradiction at |rho|>=0.10"
+      },
+      {
+        "feature": "fertilizer_consumption_kg_per_hectare_arable_land",
+        "folds": 5,
+        "mean_heldout_grouped_permutation_importance_mae_increase": 0.005276778694963148,
+        "sd_across_fold_importance_means": 0.010105491157127965,
+        "median_importance_rank": 3.0,
+        "top_five_fold_count": 4,
+        "positive_direction_folds": 5,
+        "negative_direction_folds": 0,
+        "neutral_or_weak_direction_folds": 0,
+        "median_heldout_feature_shap_spearman": 0.6165669817994728,
+        "missingness_indicator_present": false,
+        "mean_indicator_share_of_all_absolute_shap": 0.0,
+        "maximum_indicator_share_of_all_absolute_shap": 0.0,
+        "direction_contradictory_across_folds": false,
+        "stable_for_main_text": true,
+        "stability_rule": "exactly six prespecified features; top five in >=4/5 folds; no positive/negative observed-value SHAP direction contradiction at |rho|>=0.10"
+      },
+      {
+        "feature": "rural_population_growth_pct",
+        "folds": 5,
+        "mean_heldout_grouped_permutation_importance_mae_increase": 0.0010466255987465892,
+        "sd_across_fold_importance_means": 0.00957622739029746,
+        "median_importance_rank": 4.0,
+        "top_five_fold_count": 4,
+        "positive_direction_folds": 0,
+        "negative_direction_folds": 5,
+        "neutral_or_weak_direction_folds": 0,
+        "median_heldout_feature_shap_spearman": -0.7392436812656764,
+        "missingness_indicator_present": false,
+        "mean_indicator_share_of_all_absolute_shap": 0.0,
+        "maximum_indicator_share_of_all_absolute_shap": 0.0,
+        "direction_contradictory_across_folds": false,
+        "stable_for_main_text": true,
+        "stability_rule": "exactly six prespecified features; top five in >=4/5 folds; no positive/negative observed-value SHAP direction contradiction at |rho|>=0.10"
+      },
+      {
+        "feature": "rural_population_pct",
+        "folds": 5,
+        "mean_heldout_grouped_permutation_importance_mae_increase": -0.0001915323789664197,
+        "sd_across_fold_importance_means": 0.0030628606090669173,
+        "median_importance_rank": 4.0,
+        "top_five_fold_count": 5,
+        "positive_direction_folds": 4,
+        "negative_direction_folds": 0,
+        "neutral_or_weak_direction_folds": 1,
+        "median_heldout_feature_shap_spearman": 0.7576914728802374,
+        "missingness_indicator_present": false,
+        "mean_indicator_share_of_all_absolute_shap": 0.0,
+        "maximum_indicator_share_of_all_absolute_shap": 0.0,
+        "direction_contradictory_across_folds": false,
+        "stable_for_main_text": true,
+        "stability_rule": "exactly six prespecified features; top five in >=4/5 folds; no positive/negative observed-value SHAP direction contradiction at |rho|>=0.10"
+      },
+      {
+        "feature": "electricity_access_pct",
+        "folds": 5,
+        "mean_heldout_grouped_permutation_importance_mae_increase": -0.002456905605246327,
+        "sd_across_fold_importance_means": 0.004310229039265423,
+        "median_importance_rank": 6.0,
+        "top_five_fold_count": 2,
+        "positive_direction_folds": 5,
+        "negative_direction_folds": 0,
+        "neutral_or_weak_direction_folds": 0,
+        "median_heldout_feature_shap_spearman": 0.7297197627358453,
+        "missingness_indicator_present": false,
+        "mean_indicator_share_of_all_absolute_shap": 0.0,
+        "maximum_indicator_share_of_all_absolute_shap": 0.0,
+        "direction_contradictory_across_folds": false,
+        "stable_for_main_text": false,
+        "stability_rule": "exactly six prespecified features; top five in >=4/5 folds; no positive/negative observed-value SHAP direction contradiction at |rho|>=0.10"
+      }
+    ],
+    "missingness_indicator_audit": [],
+    "median_pairwise_fold_rank_spearman": 0.48571428571428577,
+    "median_pairwise_top_five_jaccard": 0.6666666666666666
+  },
+  "external_alignment": [
+    {
+      "outcome_view": "pou_lower_bound",
+      "report_role": "main",
+      "country_count": 30,
+      "overlapping_country_period_rows": 420,
+      "candidate_capacity_rows": 420,
+      "excluded_missing_or_invalid_status_rows": 0,
+      "left_censored_rows": 137,
+      "median_period_rows_per_country": 14.0,
+      "minimum_period_rows_per_country": 14,
+      "maximum_period_rows_per_country": 14,
+      "country_median_spearman": -0.3113638448990675,
+      "expected_direction": "negative",
+      "direction_consistent": true,
+      "semantics": "official PoU three-year-average lower-bound view; '<2.5' contributes 0 only as a bound",
+      "inference": "descriptive construct alignment only; no p-value, prediction, or causal claim"
+    },
+    {
+      "outcome_view": "pou_upper_bound",
+      "report_role": "main",
+      "country_count": 30,
+      "overlapping_country_period_rows": 420,
+      "candidate_capacity_rows": 420,
+      "excluded_missing_or_invalid_status_rows": 0,
+      "left_censored_rows": 137,
+      "median_period_rows_per_country": 14.0,
+      "minimum_period_rows_per_country": 14,
+      "maximum_period_rows_per_country": 14,
+      "country_median_spearman": -0.3113638448990675,
+      "expected_direction": "negative",
+      "direction_consistent": true,
+      "semantics": "official PoU three-year-average upper-bound view; '<2.5' contributes 2.5 only as a bound",
+      "inference": "descriptive construct alignment only; no p-value, prediction, or causal claim"
+    },
+    {
+      "outcome_view": "fies_exact",
+      "report_role": "main",
+      "country_count": 27,
+      "overlapping_country_period_rows": 218,
+      "candidate_capacity_rows": 420,
+      "excluded_missing_or_invalid_status_rows": 202,
+      "left_censored_rows": 0,
+      "median_period_rows_per_country": 9.0,
+      "minimum_period_rows_per_country": 3,
+      "maximum_period_rows_per_country": 9,
+      "country_median_spearman": -0.26687024144841204,
+      "expected_direction": "negative",
+      "direction_consistent": true,
+      "semantics": "published exact moderate-or-severe FIES three-year averages only",
+      "inference": "descriptive construct alignment only; no p-value, prediction, or causal claim"
+    }
+  ],
+  "index_robustness": [
+    {
+      "diagnostic": "country-median rank: 50/50 versus 56/44",
+      "value": 0.9981088058202632,
+      "interpretation": "Spearman rank agreement"
+    },
+    {
+      "diagnostic": "country-median rank: percentile-rank versus annual min-max",
+      "value": 0.9892090393840592,
+      "interpretation": "Spearman rank agreement"
+    },
+    {
+      "diagnostic": "minimum rank agreement over central SSR weights 0.40-0.60",
+      "value": 0.9852041444877676,
+      "interpretation": "minimum Spearman versus 50/50"
+    },
+    {
+      "diagnostic": "minimum rank agreement over all 101 SSR weights",
+      "value": 0.9109627664153364,
+      "interpretation": "minimum Spearman versus 50/50"
+    },
+    {
+      "diagnostic": "weight combinations satisfying all four category hypotheses",
+      "value": 0.0,
+      "interpretation": "count out of 101; weights are not selected to repair failure"
+    }
+  ],
+  "expert_hypotheses": [
+    {
+      "expert_hypothesis": "Category 1 above Category 2",
+      "margin_at_50_50": 0.0517241379310344,
+      "passes_strict_ordering": true,
+      "status": "supported"
+    },
+    {
+      "expert_hypothesis": "Category 2 above Category 3",
+      "margin_at_50_50": -0.5,
+      "passes_strict_ordering": false,
+      "status": "contradicted"
+    },
+    {
+      "expert_hypothesis": "Flexible 1 above Category 3",
+      "margin_at_50_50": 0.3362068965517241,
+      "passes_strict_ordering": true,
+      "status": "supported"
+    },
+    {
+      "expert_hypothesis": "Flexible 2 below Category 1",
+      "margin_at_50_50": -0.0431034482758621,
+      "passes_strict_ordering": false,
+      "status": "contradicted"
+    }
+  ],
+  "guardrails": {
+    "target": "capacity_v2_rank_50_50",
+    "target_is_constructed_composite": true,
+    "target_ingredients_excluded_from_predictors": true,
+    "outcomes_excluded_from_predictors": true,
+    "predictor_features": [
+      "electricity_access_pct",
+      "rural_population_pct",
+      "rural_population_growth_pct",
+      "female_agricultural_employment_pct",
+      "arable_land_hectares_per_person",
+      "fertilizer_consumption_kg_per_hectare_arable_land"
+    ],
+    "country_grouped_folds": true,
+    "maximum_country_overlap_between_train_and_test": 0,
+    "models_run": [
+      "OLS",
+      "fixed shallow Random Forest"
+    ],
+    "fixed_missingness_indicator_set": [],
+    "value_and_missingness_indicator_joint_permutation": true,
+    "hyperparameter_tuning_performed": false,
+    "prohibited_methods_run": [],
+    "shap_outputs": [
+      "one cross-fitted global beeswarm",
+      "fold stability audit"
+    ],
+    "ice_or_pdp_run": false,
+    "forecast_run": false,
+    "causal_identification_attempted": false,
+    "interpretation_limit": "High out-of-fold fit can reflect reconstruction of a constructed rank target; model attribution is associative and not evidence of intervention effects."
+  },
+  "validation": {
+    "oof_rows": 360,
+    "oof_missing_predictions": 0,
+    "group_fold_country_overlap": 0,
+    "cluster_bootstrap_rows": 500,
+    "shap_rows": 2160,
+    "shap_expected_base_feature_rows": 2160,
+    "shap_base_feature_rows": 2160,
+    "fixed_missingness_indicator_fold_rows": 0,
+    "main_report_models": 2,
+    "explanation_stability_evaluated": true,
+    "complete_method_guardrail_audit": true
+  }
+}

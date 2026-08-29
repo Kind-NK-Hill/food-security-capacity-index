@@ -1,0 +1,40 @@
+[scope]
+index_years = [2010, 2023]
+model_years = [2010, 2021]
+target_countries = 31
+modern_v2_countries = 30
+modern_v2_exclusion = "JPN: FAOSTAT Food Balances cereal series absent for 2010-2023"
+
+[index]
+ssr_weight = 0.50
+production_per_person_weight = 0.50
+legacy_sensitivity_ssr_weight = 0.5588235294117647
+legacy_sensitivity_production_weight = 0.4411764705882353
+normalization = "annual cross-sectional percentile rank"
+weight_grid_step = 0.01
+
+[model]
+target = "capacity_v2_rank_50_50"
+group_folds = 5
+random_state = 42
+cluster_bootstraps = 500
+
+[model.random_forest]
+n_estimators = 500
+max_depth = 5
+min_samples_leaf = 5
+max_features = 0.7
+
+[indicators]
+capacity_wdi = ["AG.PRD.CREL.MT", "SP.POP.TOTL"]
+explanatory_wdi = [
+  "EG.ELC.ACCS.ZS",
+  "SP.RUR.TOTL.ZS",
+  "SP.RUR.TOTL.ZG",
+  "SL.AGR.EMPL.FE.ZS",
+  "AG.LND.ARBL.HA.PC",
+  "AG.CON.FERT.ZS",
+]
+faostat_food_balance_item = "2905: Cereals - Excluding Beer"
+faostat_pou_item = "210041"
+faostat_fies_item = "210091"

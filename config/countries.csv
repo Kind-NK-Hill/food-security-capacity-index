@@ -1,0 +1,32 @@
+iso3,country,include_in_modern_v2,scope_note
+ARG,Argentina,True,Included in modern v2
+BGD,Bangladesh,True,Included in modern v2
+BRA,Brazil,True,Included in modern v2
+CHN,China,True,Included in modern v2
+COD,"Congo, Dem. Rep.",True,Included in modern v2
+COL,Colombia,True,Included in modern v2
+DEU,Germany,True,Included in modern v2
+EGY,"Egypt, Arab Rep.",True,Included in modern v2
+ETH,Ethiopia,True,Included in modern v2
+FRA,France,True,Included in modern v2
+GBR,United Kingdom,True,Included in modern v2
+IDN,Indonesia,True,Included in modern v2
+IND,India,True,Included in modern v2
+IRN,"Iran, Islamic Rep.",True,Included in modern v2
+ITA,Italy,True,Included in modern v2
+JPN,Japan,False,Excluded from modern v2: FAOSTAT FBS cereal series absent for 2010-2023
+KEN,Kenya,True,Included in modern v2
+KOR,"Korea, Rep.",True,Included in modern v2
+MEX,Mexico,True,Included in modern v2
+MMR,Myanmar,True,Included in modern v2
+MYS,Malaysia,True,Included in modern v2
+NGA,Nigeria,True,Included in modern v2
+PAK,Pakistan,True,Included in modern v2
+PHL,Philippines,True,Included in modern v2
+RUS,Russian Federation,True,Included in modern v2
+THA,Thailand,True,Included in modern v2
+TUR,Turkiye,True,Included in modern v2
+TZA,Tanzania,True,Included in modern v2
+USA,United States,True,Included in modern v2
+VNM,Viet Nam,True,Included in modern v2
+ZAF,South Africa,True,Included in modern v2

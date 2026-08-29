@@ -1,0 +1,5 @@
+expert_hypothesis,margin_at_50_50,passes_strict_ordering,status
+Category 1 above Category 2,0.0517241379310344,True,supported
+Category 2 above Category 3,-0.5,False,contradicted
+Flexible 1 above Category 3,0.336206896551724,True,supported
+Flexible 2 below Category 1,-0.0431034482758621,False,contradicted

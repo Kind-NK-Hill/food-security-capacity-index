@@ -1,0 +1,122 @@
+{
+  "status": "pass",
+  "checks_passed": 11,
+  "checks_total": 11,
+  "failed_checks": [],
+  "checks": [
+    {
+      "check": "required public files",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "no excluded private/build artifacts",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "no file exceeds 50 MiB",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "no machine-specific Windows paths",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "no common secret patterns",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "capacity panel contract",
+      "pass": true,
+      "actual": {
+        "rows": 420,
+        "countries": 30
+      },
+      "expected": "420 unique rows, 30 countries, Japan absent"
+    },
+    {
+      "check": "explanatory panel contract",
+      "pass": true,
+      "actual": {
+        "rows": 360,
+        "countries": 30,
+        "missing_feature_cells": 0
+      },
+      "expected": "360 unique rows, 30 countries, six complete features"
+    },
+    {
+      "check": "outcome panel contract",
+      "pass": true,
+      "actual": {
+        "rows": 420,
+        "countries": 30
+      },
+      "expected": "420 unique PoU/FIES rows and no redistributed GHI columns"
+    },
+    {
+      "check": "published headline metrics",
+      "pass": true,
+      "actual": {
+        "baseline_mae": 0.229885057471264,
+        "ols_r2": -0.230736003417319,
+        "rf_mae": 0.191584267877049,
+        "rf_r2": 0.319155430260619
+      },
+      "expected": "frozen published values"
+    },
+    {
+      "check": "six readable report figures",
+      "pass": true,
+      "actual": [
+        {
+          "path": "figures/method_flow.png",
+          "width": 2665,
+          "height": 619
+        },
+        {
+          "path": "figures/capacity_profile.png",
+          "width": 2727,
+          "height": 2240
+        },
+        {
+          "path": "figures/country_structure.png",
+          "width": 2770,
+          "height": 2269
+        },
+        {
+          "path": "figures/linear_coefficients.png",
+          "width": 1829,
+          "height": 1103
+        },
+        {
+          "path": "figures/rf_shap_beeswarm_appendix.png",
+          "width": 2005,
+          "height": 1301
+        },
+        {
+          "path": "figures/legacy_simplex_appendix.png",
+          "width": 1828,
+          "height": 1477
+        }
+      ],
+      "expected": "six PNGs at least 1000x500"
+    },
+    {
+      "check": "compiled report PDF",
+      "pass": true,
+      "actual": {
+        "bytes": 1374832
+      },
+      "expected": "valid PDF header and >500 KiB"
+    }
+  ]
+}

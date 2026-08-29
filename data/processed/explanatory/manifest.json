@@ -1,0 +1,24 @@
+{
+  "outputs": [
+    {
+      "path": "data/processed/explanatory/explanatory_panel.csv",
+      "sha256": "37DD49ED8363B15555FE7BC8D46FABBE373B7A0C6332F957D31F3AA8D5A5B718",
+      "bytes": 75584
+    },
+    {
+      "path": "data/processed/explanatory/summary.json",
+      "sha256": "2976350B16BDE731359529259B49543D5E208CA558977684E1C81C27B20F0536",
+      "bytes": 514
+    },
+    {
+      "path": "data/processed/explanatory/feature_dictionary.csv",
+      "sha256": "548176232FA436D664813471EC33E8D041DDCF6D6FCAA3AC4D7A03AC05BF3316",
+      "bytes": 7708
+    },
+    {
+      "path": "data/processed/explanatory/coverage.csv",
+      "sha256": "4BFA53CCD2E706ED2971C678D021B473D11070AF9148D4B2C1E63E24BE076AA8",
+      "bytes": 16008
+    }
+  ]
+}

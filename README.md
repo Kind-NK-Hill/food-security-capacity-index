@@ -6,9 +6,9 @@ A reproducible 30-country case study of transparent composite-index design,
 expert-hypothesis testing, country structure, and cautious interpretable
 modeling.
 
-> This is a revised implementation of a collaborative course project. The
-> repository documents a later AI-assisted reconstruction; it does not claim
-> that the original team submission was completed independently by one person.
+> This is a revised implementation of a sole-author course project. The
+> repository owner independently completed the original project end to end;
+> this public release is a later reproducibility-focused reconstruction.
 
 ![Capacity profile](figures/capacity_profile.png)
 
@@ -80,7 +80,7 @@ The concise technical report is available at
 ```
 
 The original 154-page submission, original R Markdown, virtual environment,
-raw third-party workbooks, private paths, and team-internal materials are not
+raw third-party workbooks, private paths, and private working materials are not
 included.
 
 ## Quick reproduction from the frozen snapshot
@@ -164,6 +164,16 @@ work; GHI data are excluded from the public repository.
   see [`DATA_SOURCES.md`](DATA_SOURCES.md).
 - The MIT license does not cover third-party data, the report, or figures.
 - No source organization endorses this project.
+
+## Authorship and contributions
+
+This is a sole-author project. The repository owner independently completed the
+original course work end to end: research framing, source selection and data
+collection, preprocessing, index design, modeling, interpretation,
+visualization, and report writing. The 2026 public release is a later
+reproducibility-focused revision. AI tools assisted with code review,
+verification, and prose restructuring for that revision; the owner made the
+analytical decisions and remains responsible for the released work.
 
 ## Reuse
 

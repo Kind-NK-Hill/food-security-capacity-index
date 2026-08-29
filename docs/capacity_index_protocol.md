@@ -28,7 +28,7 @@ weights and normalizations?
 | --- | --- | --- |
 | Cereal self-sufficiency | Saved FAOSTAT Food Balances item 2905 | `production / (production + imports - exports) × 100`; values above 100 are retained for net exporters |
 | Cereal production per person | Saved WDI cereal production and population series | `AG.PRD.CREL.MT / SP.POP.TOTL`; metric tonnes per person |
-| Expert category | `config/country_categories.csv` | Historical Category 1/2/3, Flexible 1/2, or unclassified labels from the collaborative course project; diagnostic only |
+| Expert category | `config/country_categories.csv` | Historical Category 1/2/3, Flexible 1/2, or unclassified labels from the original sole-author course project; diagnostic only |
 
 PoU, FIES, GHI, and the inspected 2019 PoU test fold are prohibited from index construction and weight selection.
 

@@ -10,6 +10,14 @@ modeling.
 > repository owner independently completed the original project end to end;
 > this public release is a later reproducibility-focused reconstruction.
 
+**Start here:** [Technical report](report/Food_Security_Capacity_Index.pdf) ·
+[Main findings](#main-findings) · [Reproduce the analysis](#quick-reproduction-from-the-frozen-snapshot) ·
+[Data sources](DATA_SOURCES.md) · [Analysis scripts](scripts/)
+
+**中文概述**：基于世界银行和粮农组织数据的30国谷物供给与贸易能力研究，
+重点检查指标定义、权重敏感性、按国家分组的模型验证与结果解释。
+[其他研究与项目](https://github.com/Kind-NK-Hill)
+
 ![Capacity profile](figures/capacity_profile.png)
 
 ## Research question

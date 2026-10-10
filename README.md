@@ -179,9 +179,7 @@ This is a sole-author project. The repository owner independently completed the
 original course work end to end: research framing, source selection and data
 collection, preprocessing, index design, modeling, interpretation,
 visualization, and report writing. The 2026 public release is a later
-reproducibility-focused revision. AI tools assisted with code review,
-verification, and prose restructuring for that revision; the owner made the
-analytical decisions and remains responsible for the released work.
+reproducibility-focused revision. The 2026 Python reconstruction was implemented largely with the Codex coding agent under the owner’s direction; the owner set the analysis design and checked the results.
 
 ## Reuse
 
